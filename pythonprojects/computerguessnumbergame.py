@@ -19,6 +19,6 @@ def guessgame(x):
         elif feedback == 's':
             print(f'{randomnumber} is too small, try again')
             low = randomnumber +1
-    print(f'Congrats! your {guess} is correct!')
+    print('Congrats! your guess is correct!')
 
 guessgame(10)
