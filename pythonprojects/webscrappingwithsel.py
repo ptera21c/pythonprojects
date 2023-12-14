@@ -14,8 +14,8 @@ driver.get("https://ach.alayacare.com/#/scheduling/staff/default/view")
 email = driver.find_element("name", "email")  # Change "username" to the actual name of the username field
 password = driver.find_element("name", "password")  # Change "password" to the actual name of the password field
 
-email.send_keys("ptera21c@gmail.com")
-password.send_keys("97230330")
+email.send_keys(email)
+password.send_keys(password)
 password.send_keys(Keys.RETURN)
 
 time.sleep(10)
